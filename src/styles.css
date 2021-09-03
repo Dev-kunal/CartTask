@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap");
+:root {
+  --primaryColor: #2a9df3;
+  --myGrey: #6a6666;
+  --borderColor: #e3dbdbb0;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+}
+.products-page {
+  max-width: 20rem;
+  margin: 0 auto;
+}
+.product-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+.grey {
+  color: var(--myGrey);
+}
+.product {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  border-bottom: 1px solid #e3dbdbb0;
+}
+.btn-primary {
+  cursor: pointer;
+  padding: 0.5rem;
+  background-color: var(--primaryColor);
+  color: white;
+  border-radius: 0.3rem;
+  margin-left: 1rem;
+  border: none;
+}
+.btn-secondary {
+  cursor: pointer;
+  padding: 0.5rem;
+  background-color: transparent;
+  border: 2px solid var(--primaryColor);
+  color: var(--primaryColor);
+  border-radius: 0.3rem;
+}
+.link {
+  display: flex;
+  justify-content: center;
+}
+.in-basket {
+  border: none;
+}
+.disabled {
+  background-color: var(--myGrey);
+}
+.basket-item {
+  border-bottom: 1px solid var(--borderColor);
+}
+.item-price {
+  color: var(--myGrey);
+  text-align: right;
+  margin-bottom: 0.3rem;
+}
+.bill-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.3rem;
+}
+.savings {
+  color: rgba(243, 87, 87, 0.733);
+}
